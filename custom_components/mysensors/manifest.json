@@ -1,14 +1,15 @@
 {
   "domain": "mysensors",
-  "name": "MySensors",
+  "name": "MySensors Custom",
   "after_dependencies": ["mqtt"],
   "categories": ["diy_makers.boards_hardware"],
-  "codeowners": ["@MartinHjelmare", "@functionpointer"],
+  "codeowners": ["@EdLeckert"],
   "config_flow": true,
   "connectivity": ["mqtt", "network", "serial"],
-  "documentation": "https://www.home-assistant.io/integrations/mysensors",
+  "documentation": "https://github.com/EdLeckert/ha-mysensors-custom",
   "integration_type": "hub",
   "iot_class": "local_push",
   "loggers": ["mysensors"],
+  "version": "1.0.0",
   "requirements": ["pymysensors==0.26.0"]
 }
